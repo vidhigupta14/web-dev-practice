@@ -1,0 +1,75 @@
+/* nav ul{
+    list-style-position: inside;
+    list-style-type: "🌅";
+    display: flex;
+}
+li{
+    border: 1px solid blue;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.card {
+    border: 2px solid grey;
+    position: absolute;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.cardimg {
+    /* position: relative; */
+    margin: 10px;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+p{
+    max-width: 30vw;
+    font-weight: 400;
+    color: rgb(65, 65, 65);
+}
+
+.text {
+    margin: 10px;
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 500;
+}
+
+.tags > li{
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 300;
+    list-style: none;
+    display: inline-block;
+    /* left: 5px; */
+    border: 1px solid rgb(107, 106, 106);
+    padding: 5px 10px;
+    /* padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+    border-radius: 50px;
+    color: rgb(100, 100, 100);
+}
+
+.tags{
+    padding: 10px 6px;
+}
+
+button{
+    padding: 15px 30px;
+    background-color: rgb(193, 229, 247);
+    /* border: 0.5px solid rgb(66, 77, 207); */
+    border: none;
+    border-radius: 50px;
+    /* position: relative;
+    left: 30%; */
+    font-weight: bold;
+    color: rgb(46, 72, 161);
+}
+
+.btn{
+    text-align: center;
+}

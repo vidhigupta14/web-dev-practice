@@ -1,0 +1,8 @@
+.decor{
+    font-family: "Winky Rough", sans-serif;
+    border: 2px solid blue;
+    font-size: large;
+    width: 60px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

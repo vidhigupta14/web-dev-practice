@@ -1,0 +1,20 @@
+# Mac/Windows junk
+.DS_Store
+Thumbs.db
+
+# Big files to ignore
+*.mp4
+*.psd
+*.zip
+*.mov
+*.avi
+*.webm
+*.jpg
+*.png
+
+# Node.js stuff (if you're using npm)
+node_modules/
+
+# Logs
+*.log
+*.exe
