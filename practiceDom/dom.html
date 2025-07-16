@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            border: 1px solid black;
+        }
+
+
+        ul {
+            display: flex;
+            background-color: rgb(61, 39, 9);
+            width: 100vw;
+            height: 60px;
+            color: white;
+            gap: 40px;
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        table,
+        th,
+        td {
+            height: 100px;
+            width: 200px;
+            background-color: bisque;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .ch{
+            height: 40px;
+            width: 60px;
+            background-color: aquamarine;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+        <div class="box">Box</div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Shop</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="ele">
+        <div class="ch">1</div>
+        <div class="ch">2</div>
+        <div class="ch">3</div>
+    </div>
+    <script src="./dom.js"></script>
+</body>
+
+</html>
