@@ -1,0 +1,25 @@
+.bookmarks{
+    border: 2px dashed rgb(97, 7, 65);
+    margin: 30px;
+    background-color: pink;
+    height: 20vw;
+    width: 40vw;
+    padding: 20px;
+}
+
+a{
+    color: rgb(200, 26, 90);
+}
+
+.bulb svg{
+    height: 400px;
+    width: 400px;
+}
+
+.st1{
+    /* fill: #FDDD7B; */
+    fill: white;
+}
+/* .yellow svg{
+    fill: yellow;
+} */
