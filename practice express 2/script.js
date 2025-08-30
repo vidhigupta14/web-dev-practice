@@ -1,7 +1,10 @@
 import express from 'express';
+import birds from './routes/birds.js';
 
 const app = express();
 const PORT = 3000;  
+
+app.use('/birds', birds)
 
 app.get('/', (req, res) => {
     res.send('Home Page');
