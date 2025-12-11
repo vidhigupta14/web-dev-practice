@@ -1,0 +1,28 @@
+.card{
+    border-radius: 20px;
+    background-color: rgb(235, 220, 245);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 16px;
+    height: 380px;
+    width: 300px;
+    padding: 20px;
+    /* margin: 40px; */
+}
+
+.card-image{
+    height: 180px;
+    width: 220px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+/* h1{
+    border: 1px solid rgb(74, 57, 84);
+    padding: 40px;
+    border-radius: 16px;
+    width: 100%;
+    text-align: center;
+} */
