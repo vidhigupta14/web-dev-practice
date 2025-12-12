@@ -1,6 +1,6 @@
 🌐 Web Development Practice Projects
 
-Welcome to my web development practice repository! This is a collection of mini-projects, experiments, and exercises I've built while learning and exploring both **frontend and backend technologies**. From basic layouts to full-stack applications, each project helped me get more confident with HTML, CSS, JavaScript, Tailwind, Node.js, Express, and MongoDB.
+Welcome to my web development practice repository! This is a collection of mini-projects, experiments, and exercises I've built while learning and exploring both **frontend and backend technologies**. From basic layouts to full-stack applications, each project helped me get more confident with HTML, CSS, JavaScript, Tailwind, Node.js, Express, MongoDB and ReactJS.
 
 🚀 What's Inside?
 
