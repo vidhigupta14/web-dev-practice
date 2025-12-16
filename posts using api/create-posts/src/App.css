@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  margin: 30px;
+}
+
+.post-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.post-card{
+  width: 300px;
+  height: auto;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(255, 226, 231);
+  color: rgb(18, 26, 26);
+}
