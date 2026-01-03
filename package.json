@@ -5,6 +5,8 @@
     "tailwindcss": "^4.1.12"
   },
   "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
     "react-hook-form": "^7.69.0"
   }
 }
