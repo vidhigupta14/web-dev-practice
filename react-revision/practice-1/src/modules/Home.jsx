@@ -1,12 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./Home.css";
 
 const Home = () => {
   const [count, setcount] = useState(0);
 
-  // useEffect(() => {
-  //   alert("Welcome to the Page");
-  // }, [count]);
+  const num = useRef(0)
+  useEffect(() => {
+    num.current = num.current + 1;
+    console.log(`useEffect called ${num.current}`);
+  }, [count]);
 
   return (
     <>
